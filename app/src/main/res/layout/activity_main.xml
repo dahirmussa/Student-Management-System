@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Future Learning"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="23dp" />
+
+    <!--suppress AndroidUnresolvableTag -->
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the Future of learning app!"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="17dp" />
+    <!--suppress AndroidUnresolvableTag -->
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        />
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="271dp"
+        android:layout_height="56dp"
+        android:background="@drawable/rectangle1"
+        android:text="Login"
+        android:textColor="@color/white"
+        />
+    <!--suppress AndroidUnresolvableTag -->
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        />
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="271dp"
+        android:layout_height="56dp"
+        android:background="@drawable/rectangle2"
+        android:text="Create account"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+
+</LinearLayout>
