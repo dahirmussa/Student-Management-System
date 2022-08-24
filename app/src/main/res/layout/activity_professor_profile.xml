@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:textColor="@color/blue"
+            android:layout_gravity="right"
+            android:onClick="done"
+            android:text="Done" />
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardPreventCornerOverlap="false"
+        android:layout_gravity="center"
+        app:cardCornerRadius="75dp"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/Profile_image"
+            android:clickable="true"
+            android:scaleType="fitCenter"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <!--suppress AndroidUnresolvableTag -->
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="name"
+        android:textColor="@color/black"
+        />
+    <!--suppress AndroidUnresolvableTag -->
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        />
+    <Button
+        android:id="@+id/My_account"
+        android:layout_width="362dp"
+        android:layout_gravity="center"
+        android:layout_height="49dp"
+        android:onClick="Account"
+        android:background="@drawable/rectangle2"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:hint="My Account"
+        android:paddingStart="20sp"
+        android:textColorHint="#404048"
+        android:textSize="17sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="18dp" />
+
+    <!--suppress AndroidUnresolvableTag -->
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        />
+    <Button
+        android:id="@+id/Darkmode"
+        android:layout_width="362dp"
+        android:layout_gravity="center"
+        android:layout_height="49dp"
+        android:background="@drawable/rectangle2"
+        android:drawableLeft="@drawable/ic_dark_mode"
+        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:hint="Dark Mode"
+        android:paddingStart="20sp"
+        android:textColorHint="#404048"
+        android:textSize="17sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="18dp" />
+
+    <!--suppress AndroidUnresolvableTag -->
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        />
+    <Button
+        android:id="@+id/Dashboard"
+        android:layout_width="362dp"
+        android:layout_gravity="center"
+        android:layout_height="49dp"
+        android:onClick="Dashboard"
+        android:background="@drawable/rectangle2"
+        android:drawableLeft="@drawable/ic_baseline_dashboard_24"
+        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:hint="Dashboard"
+        android:paddingStart="20sp"
+        android:textColorHint="#404048"
+        android:textSize="17sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="18dp" />
+    <!--suppress AndroidUnresolvableTag -->
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        />
+    <Button
+        android:id="@+id/Logout"
+        android:layout_width="362dp"
+        android:layout_gravity="center"
+        android:layout_height="49dp"
+        android:onClick="Loginout"
+        android:background="@drawable/rectangle2"
+        android:drawableLeft="@drawable/ic_logout"
+        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:hint="Logout"
+        android:paddingStart="20sp"
+        android:textColorHint="#404048"
+        android:textSize="17sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="18dp" />
+</LinearLayout>

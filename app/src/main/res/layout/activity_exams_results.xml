@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ExamsResults">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_baseline_arrow_back_24"
+        android:orientation="horizontal"
+        >
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exam Results"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+    <!--suppress AndroidUnresolvableTag -->
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        />
+
+    <EditText
+        android:layout_width="362dp"
+        android:layout_height="49dp"
+        android:id="@+id/Modules_names"
+        android:hint=" ModulesNames"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="362dp"
+        android:layout_height="49dp"
+        android:id="@+id/grades"
+        android:hint=" Grades"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:layout_width="362dp"
+        android:layout_height="49dp"
+        android:id="@+id/Feedback"
+        android:hint=" Feedback"
+        android:inputType="text"
+        />
+
+    <!--suppress AndroidUnresolvableTag -->
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        />
+
+    <Button
+        android:id="@+id/sends"
+        android:layout_width="271dp"
+        android:layout_height="56dp"
+        android:background="@drawable/rectangle2"
+        android:text="send"
+        android:onClick="Sends"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <!--suppress AndroidUnresolvableTag -->
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        />
+</LinearLayout>

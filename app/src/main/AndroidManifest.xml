@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.education_app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Education_app">
+        <activity
+            android:name=".Mode"
+            android:exported="false" />
+        <activity
+            android:name=".CreateNewUsers"
+            android:exported="false" />
+        <activity
+            android:name=".chatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".specificchat"
+            android:exported="false" />
+        <activity
+            android:name=".Main_Recycler"
+            android:exported="false" />
+        <activity
+            android:name=".Module_Recycler"
+            android:exported="false" />
+        <activity
+            android:name=".Moduleswork"
+            android:exported="false" />
+        <activity
+            android:name=".Feedback_Recycler"
+            android:exported="false" />
+        <activity
+            android:name=".Feedback"
+            android:exported="false" />
+        <activity
+            android:name=".Upload_work"
+            android:exported="false" />
+        <activity
+            android:name=".Professor_Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Professor_Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Student_Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Student_Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.PostDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Home"
+            android:exported="false" />
+        <activity
+            android:name=".Upload_Assigment"
+            android:exported="false" />
+        <activity
+            android:name=".Assignemnt"
+            android:exported="false" />
+        <activity
+            android:name=".Attendances"
+            android:exported="false" />
+        <activity
+            android:name=".Attendance_Recycler"
+            android:exported="false" />
+        <activity
+            android:name=".TimetableRecycler"
+            android:exported="false" />
+        <activity
+            android:name=".chat.Chat"
+            android:exported="false" />
+        <activity
+            android:name=".Timetable"
+            android:exported="false" />
+        <activity
+            android:name=".ScheduleRecycler"
+            android:exported="false" />
+        <activity
+            android:name=".ScheduleExams"
+            android:exported="false" />
+        <activity
+            android:name=".Professor"
+            android:exported="false" />
+        <activity
+            android:name=".ExamsResults"
+            android:exported="false" />
+        <activity
+            android:name=".AdminProfile"
+            android:exported="false" />
+        <activity
+            android:name=".FacebookLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Searchbar"
+            android:exported="false" />
+        <activity
+            android:name=".Project"
+            android:exported="false" />
+        <activity
+            android:name=".Students"
+            android:exported="false" />
+        <activity
+            android:name=".Modules"
+            android:exported="false" />
+        <activity
+            android:name=".Admin"
+            android:exported="false" />
+        <activity
+            android:name=".Message"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Forgot_password"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+    </application>
+
+</manifest>

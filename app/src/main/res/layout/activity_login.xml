@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_baseline_arrow_back_24"
+        android:orientation="horizontal"
+        >
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Future learning"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+    <!--suppress AndroidUnresolvableTag -->
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        />
+
+    <EditText
+        android:layout_width="362dp"
+        android:layout_height="49dp"
+        android:id="@+id/email"
+        android:hint=" Email"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="362dp"
+        android:layout_height="49dp"
+        android:id="@+id/password"
+        android:hint=" Password"
+        android:inputType="textPassword"
+        />
+    <TextView
+        android:id="@+id/Forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Forgot password"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="right"
+        android:onClick="back"
+        />
+    <!--suppress AndroidUnresolvableTag -->
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        />
+
+    <Button
+        android:id="@+id/aLogin"
+        android:layout_width="271dp"
+        android:layout_height="56dp"
+        android:background="@drawable/rectangle2"
+        android:text="Login"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <!--suppress AndroidUnresolvableTag -->
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        />
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--------------------- OR Login/Signup via ----------------------"
+        />
+    <!--suppress AndroidUnresolvableTag -->
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        />
+    <TextView
+        android:id="@+id/facebookapi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Login with Facebook"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#3897f0"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:drawablePadding="4dp"
+        android:drawableStart="@drawable/ic_if_square_facebook"
+        />
+</LinearLayout>

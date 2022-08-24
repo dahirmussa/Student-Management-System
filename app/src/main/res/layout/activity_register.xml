@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_baseline_arrow_back_24"
+        android:orientation="horizontal"
+        android:onClick="back"
+        >
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create account"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+    <!--suppress AndroidUnresolvableTag -->
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        />
+
+    <EditText
+        android:layout_width="362dp"
+        android:layout_height="49dp"
+        android:id="@+id/email"
+        android:hint=" Email"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:layout_width="362dp"
+        android:layout_height="49dp"
+        android:id="@+id/password"
+        android:hint=" Password"
+        android:inputType="textPassword"
+        />
+    <EditText
+        android:layout_width="362dp"
+        android:layout_height="49dp"
+        android:id="@+id/roles"
+        android:hint=" Role"
+        android:inputType="text"
+        />
+    <!--suppress AndroidUnresolvableTag -->
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        />
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="271dp"
+        android:layout_height="56dp"
+        android:background="@drawable/rectangle1"
+        android:text="create"
+        android:onClick="signup"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>
